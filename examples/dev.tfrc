@@ -1,0 +1,6 @@
+provider_installation {
+  dev_overrides {
+    "tranxuantruongworld/polaris" = "/home/xtruong/Desktop/open-source/terraform-provider-polaris/bin"
+  }
+  direct {}
+}

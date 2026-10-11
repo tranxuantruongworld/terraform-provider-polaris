@@ -1,0 +1,25 @@
+# Compiled binaries
+bin/
+dist/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test and coverage artifacts
+*.test
+*.out
+
+# Terraform local state and files
+.terraform/
+*.tfstate
+*.tfstate.*
+.terraform.lock.hcl
+
+# IDE and OS
+.idea/
+.vscode/
+*.swp
+*~
+.DS_Store
