@@ -6,3 +6,4 @@ resource "polaris_catalog_role" "catalog_admin" {
     description = "Full administrator for analytics catalog"
   }
 }
+

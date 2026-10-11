@@ -5,3 +5,4 @@ data "polaris_principal_role" "analysts" {
 output "role_version" {
   value = data.polaris_principal_role.analysts.entity_version
 }
+

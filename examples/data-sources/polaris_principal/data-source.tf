@@ -5,3 +5,4 @@ data "polaris_principal" "analyst" {
 output "principal_client_id" {
   value = data.polaris_principal.analyst.client_id
 }
+

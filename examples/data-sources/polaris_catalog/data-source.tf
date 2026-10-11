@@ -5,3 +5,4 @@ data "polaris_catalog" "existing" {
 output "catalog_location" {
   value = data.polaris_catalog.existing.default_base_location
 }
+

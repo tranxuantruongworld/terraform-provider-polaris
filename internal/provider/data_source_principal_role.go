@@ -115,3 +115,4 @@ func (d *PrincipalRoleDataSource) Read(ctx context.Context, req datasource.ReadR
 
 	resp.Diagnostics.Append(resp.State.Set(ctx, &data)...)
 }
+

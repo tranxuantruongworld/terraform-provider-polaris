@@ -178,3 +178,4 @@ func (r *PrincipalRoleAssignmentResource) ImportState(ctx context.Context, req r
 	resp.Diagnostics.Append(resp.State.SetAttribute(ctx, path.Root("principal_name"), parts[0])...)
 	resp.Diagnostics.Append(resp.State.SetAttribute(ctx, path.Root("principal_role_name"), parts[1])...)
 }
+

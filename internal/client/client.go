@@ -506,3 +506,4 @@ func (c *Client) ListGrants(ctx context.Context, catalogName string, catalogRole
 	}
 	return resp.Grants, nil
 }
+

@@ -13,3 +13,4 @@ provider "polaris" {
   client_secret = "polaris_secret"
   realm         = "default-realm"
 }
+

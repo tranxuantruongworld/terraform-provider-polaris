@@ -204,3 +204,4 @@ func (r *CatalogRoleAssignmentResource) ImportState(ctx context.Context, req res
 	resp.Diagnostics.Append(resp.State.SetAttribute(ctx, path.Root("catalog_name"), parts[1])...)
 	resp.Diagnostics.Append(resp.State.SetAttribute(ctx, path.Root("catalog_role_name"), parts[2])...)
 }
+

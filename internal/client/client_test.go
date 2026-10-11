@@ -349,3 +349,4 @@ func TestClient_PrincipalAndRolesAndGrants(t *testing.T) {
 		t.Fatalf("RevokeGrant failed: %v", err)
 	}
 }
+

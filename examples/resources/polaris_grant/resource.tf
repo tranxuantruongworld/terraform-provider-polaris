@@ -13,3 +13,4 @@ resource "polaris_grant" "read_table_data" {
   table_name        = "events"
   privilege         = "TABLE_READ_DATA"
 }
+

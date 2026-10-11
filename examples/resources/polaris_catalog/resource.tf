@@ -14,3 +14,4 @@ resource "polaris_catalog" "analytics" {
     environment = "production"
   }
 }
+

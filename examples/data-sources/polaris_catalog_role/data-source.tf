@@ -6,3 +6,4 @@ data "polaris_catalog_role" "admin" {
 output "catalog_role_version" {
   value = data.polaris_catalog_role.admin.entity_version
 }
+

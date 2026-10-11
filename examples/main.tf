@@ -99,3 +99,4 @@ output "catalog_default_location" {
   description = "Resolved base location"
   value       = data.polaris_catalog.current.default_base_location
 }
+

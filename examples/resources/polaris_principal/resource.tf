@@ -6,3 +6,4 @@ resource "polaris_principal" "data_engineer" {
     department = "data-platform"
   }
 }
+
